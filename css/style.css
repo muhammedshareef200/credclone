@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=gilroy:wght@700&display=swap');
+
+@font-face{
+  font-family: 'gilroy';
+  src: url("../fonts/Gilroy-Light.otf") format("opentype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(15, 15, 15);
+    color: #fff;
+    font-family: 'gilroy';
+    overflow-x: hidden;
+}
+.navbar-light .navbar-toggler{
+    outline: none;
+    border: none ;
+  }
+  
+
+
+  #bar{
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #ffffff;
+    padding-left: 10px;
+  }
+
+
+  .brand-text{
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    white-space: pre-line;
+  }
+
+  .brands{
+  background-color: rgb(248, 248, 248);
+  color: rgb(33, 36, 38);
+  width: 100vw;
+  position: relative;
+  padding: 60px 200px;
+}
+
+
+  
+  .navbar button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+   } 
+   .navbar{
+      font-size: 20px;
+      top: 0;
+      left: 0;
+      padding: 44px 0;
+      
+     
+    }
+  
+    .navbar{
+        background-color: rgb(15, 15, 15);
+        padding-bottom: 10px;
+    }
+    .image{
+        height: 65PX;
+        padding-left: 180px;
+        margin: 0;
+        margin-top: 18px;
+    }
+    .navbar h4{
+      color: rgb(255, 255, 255);
+      opacity: 0.8;
+      font-family: 'gilroy';
+      font-size: 18px;
+      line-height: 36px;
+      white-space: nowrap;
+      margin-right: 80px;
+
+    }
+
+.head-text-button {
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 40px 65px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 350px;
+  height: 57px;
+
+}
+
+.img1 {
+
+  padding-top: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.sofa{
+  background-color: rgb(238, 47, 76);
+    color: rgb(248, 248, 248);
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    padding: 240px 200px 180px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}  .text-1{
+  display: block;
+  font-size: 100px;
+  font-family: 'gilroy';
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+  margin-top: 60px;
+  margin-left: 18px;
+}
+
+  .text-2{
+  font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-top: 10px;
+    margin-left: 18px;
+  }
+
+.text-3  {
+ font-size: 18px;
+
+ letter-spacing: 0px;
+ line-height: 28px;
+ white-space: pre-line;
+ max-width: 630px;
+ margin-bottom: 40px;
+  margin-left: 18px;
+ }
+
+    .head-text {
+        font-family: 'gilroy';
+        font-size: 100px;
+        letter-spacing: -4.0px;
+        line-height: 130px;
+        text-align: center;
+        white-space: pre-line;
+        margin-top: 10px;
+        font-weight: 500;
+        padding-top:80px ;
+        
+
+    }
+    .head-text-1{
+      
+    font-size: 25px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    margin-top: 35px;
+    text-align: center;
+    }
+
+
+
+@media screen and (max-width: 1630px)
+
+{
+.brand-img{
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+  
+
+
+    .sofa{
+  padding: 100px;
+  background-position: center bottom;}
+
+.head-text {
+    font-size: 100px;
+    line-height: 125px;
+    letter-spacing: -3px;
+}
+.head-text-1{
+      
+  font-size: 25px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 35px;
+  text-align: center;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1279px)
+{
+  .brand-img{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+  }
+   
+  
+  
+  .image{
+    height: 50PX;
+    padding-left: 25px;
+    margin: 0;
+    margin-top: 18px;
+}
+.navbar h4{
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-family: 'gilroy';
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin-right: 30px;
+
+}
+
+.head-text {
+    font-size: 80px;
+    line-height: 120px;
+
+   
+}
+.head-text-1{
+      
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 35px;
+  text-align: center;
+  }
+
+
+
+  .blue-text-1{
+    display: block;
+    font-size: 80px;
+    font-family: 'gilroy';
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    margin-top: 60px;
+    margin-left: 18px;
+  }
+
+  .blue-text-2{
+    font-size: 27px;
+      letter-spacing: -0.2px;
+      line-height: 38px;
+      white-space: pre-line;
+      max-width: 630px;
+      margin-top: 10px;
+      margin-left: 18px;
+    }
+  
+    .blue-text-3  {
+      font-size: 18px;
+      letter-spacing: 0px;
+      line-height: 28px;
+      white-space: pre-line;
+      max-width: 630px;
+      margin-bottom: 40px;
+       margin-left: 18px;
+      }
+
+
+  .text-1{
+    display: block;
+    font-size: 80px;
+    font-family: 'gilroy';
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    margin-top: 60px;
+    margin-left: 18px;
+  }
+  
+    .text-2{
+    font-size: 27px;
+      letter-spacing: -0.2px;
+      line-height: 38px;
+      white-space: pre-line;
+      max-width: 630px;
+      margin-top: 10px;
+      margin-left: 18px;
+    }
+  
+  .text-3  {
+   font-size: 18px;
+   letter-spacing: 0px;
+   line-height: 28px;
+   white-space: pre-line;
+   max-width: 630px;
+   margin-bottom: 40px;
+    margin-left: 18px;
+   }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 900px)
+{
+ 
+
+
+  .brand-text{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    white-space: pre-line;
+  }
+  .sofa{
+    padding: 100px;
+      background-position: center bottom;
+  }
+  
+  .image{
+  height: 50PX;
+  padding-left: 25px;
+  margin: 0;
+  margin-top: 18px;
+}
+.navbar h4{
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-family: 'gilroy';
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin-right: 20px;
+
+
+}
+blue-text-1{
+
+  display: block;
+  font-size: 60px;
+  font-family: 'gilroy';
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+  margin-top: 60px;
+  margin-left: 18px;
+}
+.blue-text-2{
+  font-size: 24px;
+  line-height: 34px;
+}
+  .blue-text-3  {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-bottom: 40px;
+     margin-left: 18px;
+    }
+
+
+}
+
+.text-1{
+  display: block;
+  font-size: 60px;
+  font-family: 'gilroy';
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+  margin-top: 60px;
+  margin-left: 18px;
+}
+
+  .text-2{
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+.text-3  {
+ font-size: 18px;
+ letter-spacing: 0px;
+ line-height: 28px;
+ white-space: pre-line;
+ max-width: 630px;
+ margin-bottom: 40px;
+  margin-left: 18px;
+ }
+.head-text {
+  font-family: 'gilroy';
+  font-size: 80px;
+  letter-spacing: -4.0px;
+  line-height: 130px;
+  text-align: center;
+  white-space: pre-line;
+  margin-top: 10px;
+  font-weight: 500;
+  padding-top:80px ;}
+
+  .head-text-1{
+      
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    margin-top: 35px;
+    text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+  .brand-text{
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    white-space: pre-line;
+  }
+
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  .sofa{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+      padding: 195px 40px 90px;
+      min-height: 1150px;
+      background-position: right center;
+  }
+  .text-1{
+    display: block;
+    font-size: 80px;
+    font-family: 'gilroy';
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    margin-top: 60px;
+    margin-left: 18px;
+  }
+  
+  
+  .text-2{
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 590px;
+  }
+
+
+  .head-text {
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -1.65px;
+    line-height: 55px;
+    text-align: left;
+    white-space:inherit ;
+    width: 340px;
+    margin-top: 60px;
+    margin-left: 18px;
+}
+.head-text-1{
+  font-size: 17px;
+
+letter-spacing: 0px;
+line-height: 24px;
+white-space: pre-line;
+width: 350px;
+text-align: left;
+margin-left: 18px;
+}
+.image{
+  height: 50PX;
+  padding-left: 35px;
+  margin: 0;
+  margin-top: 18px;
+}
+
+}
+
+
+
+/* media screen 481px */
+@media only screen and (max-width: 481px){
+ 
+
+  
+  .text-1{
+    display: block;
+    font-size: 55px;
+    font-family: 'gilroy';
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    margin-top: 60px;
+    margin-left: 18px;
+  }
+ 
+ 
+  .sofa{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+      padding: 195px 50px 90px;
+      min-height: 1150px;
+      width: 100vh;
+      background-position: right center;}
+      
+
+  
+  .head-text {
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -1.65px;
+    line-height: 55px;
+    text-align: left;
+    white-space: inherit;
+    width: 340px;
+    margin-top: 60px;
+    margin-left: 18px;
+
+  }
+    .image{
+      height: 50PX;
+      padding-left: 35px;
+      margin: 0;
+      margin-top: 18px;
+    }
+    .head-text-1{
+      font-size: 17px;
+
+    letter-spacing: 0px;
+    line-height: 24px;
+    white-space: pre-line;
+    width: 350px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+
+
+
+}
+
+
+
+#banner{
+background-image: url("..//img/neopop-image-mock.jpg");
+width: 100%;
+height: 60vh ;
+background-size: cover;
+background-position: top 60px  left ; 
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column ;
+justify-content: center;
+background-attachment: fixed;}
+
+
+
+
+
+.blue{background-color: rgb(26, 97, 233);
+  color: rgb(248, 248, 248);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 200px 180px;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;}
+
+
+  .blue-text-1
+  {display: block;
+    font-size: 80px;
+    font-family: 'gilroy';
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    margin-top: 60px;
+    }
+    
+    
+    .blue-text-2{
+      font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-top: 6px;
+  ;
+    }
+    .blue-text-3{
+      font-size: 16px;
+
+ letter-spacing: 0px;
+ line-height: 28px;
+ white-space: pre-line;
+ max-width: 630px;
+ margin-bottom: 40px;
+    }
+
+
+
+    .loader-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(0, 0, 0);
+      z-index: 9999;
+      display: none;
+    }
+    
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-top: 16px solid #0094f7;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 3s linear infinite;
+      position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
